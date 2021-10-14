@@ -1,19 +1,16 @@
-
 import { BrowserRouter, Switch, Route} from "react-router-dom";
 import React, {useState} from "react";
 import styled from "styled-components";
-//import logo from './logo.svg';
-import './App.css';
 
 //import Page from  "../Page/Page";
-import Home from "./components/Home";
-import SignUp from "./components/SignUp";
+import Home from "../Home/Home";
+import SignUp from "../SignUp/SignUp";
 import Habit from "../Habit/Habit";
 import Today from "../Today/Today";
 import Historic from "../Historic/Historic";
 
-import UserContext from "./contexts/UserContext";
-import GlobalStyle from "./Styles/GlobalStyle";
+import UserContext from "../../contexts/UserContext";
+import GlobalStyle from "../Styles/GlobalStyle";
 
 export default function App(){
 	const [user, setUser] = useState(null);
