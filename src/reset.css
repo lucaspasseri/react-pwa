@@ -58,11 +58,6 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-		font-display: swap;
-}
-
-strong {
-  font-weight: bold;
 }
 
 * {

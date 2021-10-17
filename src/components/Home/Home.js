@@ -1,12 +1,10 @@
-import React, {useContext} from "react";
+import React, {useContext, lazy, Suspense} from "react";
 import axios from "axios";
 import { useHistory } from "react-router-dom";
 import Loader from "react-loader-spinner";
 import UserContext from "../../contexts/UserContext";
-import logo from "../../logo512.webp";
 import { UserActs, InputLogIn, ButtonLogIn, NavLink, ContainerAuth,
 	HeaderAuth, Logo, TextLogo } from "../Styles/Components";
-
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer, toast } from "react-toastify";
 
@@ -61,14 +59,19 @@ export default function Home(){
 		}
 	}
 
+	const ImageLogo  = lazy(() => import("../Utils/ImageLogo"));
+
 	return(
+		
 		<ContainerAuth>
-			<HeaderAuth>
-				<Logo>
-					<img src={logo} alt="tracktit logo" width="160px" height="160px"/>
-					<TextLogo>TrackIt</TextLogo>
-				</Logo>
-			</HeaderAuth>
+			<Suspense>
+				<HeaderAuth>
+					<Logo>
+						<ImageLogo/>
+						<TextLogo>TrackIt</TextLogo>
+					</Logo>
+				</HeaderAuth>
+			</Suspense>
 			<UserActs onSubmit={ClickLogIn}>
 				<InputLogIn disabled={loading} onChange={e => setEmail(e.target.value)} value={email} placeholder="email" type="email" required/>
 				<InputLogIn disabled={loading} onChange={e =>setPassword(e.target.value)} value={password} placeholder="senha" type="password" required/>
