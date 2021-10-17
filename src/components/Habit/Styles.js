@@ -85,6 +85,7 @@ export const SaveButton = styled.button`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-weight: bold;
 `;
 export const CancelButton = styled.div`
 	cursor: pointer;
@@ -96,6 +97,8 @@ export const CancelButton = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border: 1px solid #126BA5;
+	font-weight: bold;
 `;
 
 export const InputNameHabit = styled.input`

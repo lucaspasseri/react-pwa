@@ -29,30 +29,30 @@ export default function Footer(){
 	);
 }
 const CustomDiv = styled.div`
-    height: 150px;
-    width: 100px;
+	height: 150px;
+	width: 100px;
 `;
 
 const StyledLink = styled(Link)`
-    font-weight: normal;
-    text-decoration-line: none;
-    color: #126BA5;
+	font-weight: bold;
+	text-decoration-line: none;
+	color: #126BA5;
 `;
 
 const FooterContainer = styled.div`
-    height: 70px;
-    background: #ffffff;
-    display: flex;
-    align-items: center;
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: 17.976px;
-    line-height: 22px;
-    color: #126BA5;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    justify-content: space-around;
-    padding: 0 15px;
+	height: 70px;
+	background: #ffffff;
+	display: flex;
+	align-items: center;
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 17.976px;
+	line-height: 22px;
+	color: #126BA5;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	justify-content: space-around;
+	padding: 0 15px;
 	width: 100vw;
 	-webkit-box-shadow: 0px -3px 7px 1px rgba(0, 0, 0, 0.15), 0px -3px 7px 1px rgba(0, 0, 0, 0.15); 
 	box-shadow: 0px -3px 7px 1px rgba(0, 0, 0, 0.15), 0px -3px 7px 1px rgba(0, 0, 0, 0.15);

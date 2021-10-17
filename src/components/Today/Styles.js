@@ -76,6 +76,7 @@ export const TopToday = styled.div`
 		font-size: 22.976px;
 		line-height: 29px;
 		color: #126BA5;
+		font-weight: bold;
 	}
 `;
 export const CardToday = styled.div`

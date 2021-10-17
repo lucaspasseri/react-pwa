@@ -19,6 +19,7 @@ export const Top = styled.div`
         font-size: 22.976px;
         line-height: 29px;
         color: #126BA5;
+				font-weight: bold;
     }
 `;
 
@@ -67,6 +68,7 @@ export const Header = styled.div`
 `;
 export const Title = styled.div`
     font-family: 'Playball', cursive;
+		font-weight: bold;
     font-size: 38.982px;
     line-height: 49px;
     color: #FFFFFF;
