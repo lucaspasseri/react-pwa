@@ -37,7 +37,7 @@ export const Buttons = styled.div`
 export const Button = styled.button`
 		border-radius: 5px;
 		border: none;
-		background-color: #52B6FF;
+		background-color: #126BA5;
 		color: #fff;
 		font-weight: 700;
 		cursor: pointer;

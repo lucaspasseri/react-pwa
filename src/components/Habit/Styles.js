@@ -78,7 +78,7 @@ export const Buttons = styled.div`
 export const SaveButton = styled.button`
 	width: 84px;
 	height: 35px;
-	background: #52B6FF;
+	background: #126BA5;
 	border-radius: 4.63636px;
 	border: none;
 	color: #FFFFFF;
@@ -92,7 +92,7 @@ export const CancelButton = styled.div`
 	height: 35px;
 	background: #FFFFFF;
 	border-radius: 4.63636px;
-	color: #52B6FF;
+	color: #126BA5;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -134,7 +134,7 @@ export const NewHabit = styled.form`
 export const PlusButton = styled.button`
     width: 40px;
     height: 40px;
-    background: #52B6FF;
+    background: #126BA5;
     border-radius: 4.63636px;
     border: none;
     color: #FFFFFF;

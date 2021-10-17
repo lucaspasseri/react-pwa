@@ -106,7 +106,7 @@ export const UserActs = styled.form`
         font-size: 13.976px;
         line-height: 17px;
         text-decoration-line: underline;
-        color: #52B6FF;
+        color: #126BA5;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -120,21 +120,23 @@ export const InputLogIn = styled.input`
     }
 `;
 export const ButtonLogIn = styled.button`
-    background-color:#52B6FF;
+		font-weight:bold;
+    background-color:#126BA5;
     color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
 `;
 export const NavLink = styled(Link)`
-    font-size: 13.976px;
+		font-weight:bold;
+    font-size: 15.976px;
     line-height: 17px;
     text-decoration-line: underline;
-    color: #52B6FF;
+    color: #126BA5;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: none;
+		border: 1px solid #126BA5;
 `;
 
 export const ContainerAuth = styled.div`
@@ -154,9 +156,6 @@ export const Logo = styled.div`
     flex-direction: column;
     align-items: center;
     width: 180px;
-`;
-export const ImageLogo = styled.img`
-    width: 160px;
 `;
 export const TextLogo = styled.div`
     font-family: 'Playball';

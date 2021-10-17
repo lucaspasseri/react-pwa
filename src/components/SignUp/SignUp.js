@@ -2,9 +2,9 @@ import React, {useState} from "react";
 import axios from "axios";
 import Loader from "react-loader-spinner";
 import { useHistory } from "react-router-dom";
-import logo from "../../assets/trackit-image.jpg";
+import logo from "../../logo512.webp";
 import { UserActs, InputLogIn, ButtonLogIn, NavLink, ContainerAuth,
-	HeaderAuth, Logo, ImageLogo, TextLogo } from "../Styles/Components";
+	HeaderAuth, Logo, TextLogo } from "../Styles/Components";
 
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer, toast } from "react-toastify";
@@ -54,7 +54,7 @@ export default function SignUp(){
 		<ContainerAuth>
 			<HeaderAuth>
 				<Logo>
-					<ImageLogo src={logo} alt="tracktit logo"/>
+					<img src={logo} alt="tracktit logo" width="160px" height="160px"/>
 					<TextLogo>TrackIt</TextLogo>
 				</Logo>
 			</HeaderAuth>

@@ -18,7 +18,7 @@ export default function Footer(){
 				background
 				backgroundPadding={6}
 				styles={buildStyles({
-					backgroundColor:  "#52B6FF",
+					backgroundColor:  "#126BA5",
 					textColor: "#fff",
 					pathColor: "#fff",
 					trailColor: "transparent"
@@ -36,7 +36,7 @@ const CustomDiv = styled.div`
 const StyledLink = styled(Link)`
     font-weight: normal;
     text-decoration-line: none;
-    color: #52B6FF;
+    color: #126BA5;
 `;
 
 const FooterContainer = styled.div`
@@ -47,7 +47,7 @@ const FooterContainer = styled.div`
     font-family: 'Lexend Deca', sans-serif;
     font-size: 17.976px;
     line-height: 22px;
-    color: #52B6FF;
+    color: #126BA5;
     position: fixed;
     bottom: 0;
     left: 0;
